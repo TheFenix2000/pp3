@@ -23,6 +23,7 @@ public class C1 {
                 arr.add(array1[i]);
             }
         }
+        System.out.println(arr);
         arr.remove(arr.indexOf(maxNum));
         int newMax = arr.get(0);
         for (int i = 0; i < arr.size();i++) {
@@ -34,9 +35,9 @@ public class C1 {
     }
 
     public static void main(String[] args) {
-        int[] array1 = new int[]{22, 33, 44, 55};
-        int[] array2 = new int[]{44, 55, 66, 77, 88, 99};
-        System.out.println(m1(array1, array2));
-        System.out.println(m2(array2));
+        int[] n1 = {99,89,78,68,58,48,38,28, 10};
+		// int[] n2 = {1,2,3,4,5};
+        // System.out.println(m1(n1, n2));
+        System.out.println(m2(n1));
     }
 }
